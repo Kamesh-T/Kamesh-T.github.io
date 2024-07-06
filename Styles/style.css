@@ -159,7 +159,7 @@ button{
 }
 
 @media screen and (max-width:1000px) {
-    #about>div,#about > img,.container-1 > div{
+    #about>div,.container-1 > div{
         flex-basis:100%;
     }
     #about{
