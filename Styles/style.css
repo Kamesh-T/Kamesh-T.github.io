@@ -189,8 +189,8 @@ button{
     animation-name:div-animation;
     animation-duration: 5s;
     animation-timing-function:ease-in-out;
-    animation-timeline:view() 1%;
-    animation-range:entry ;
+    animation-timeline:view();
+    animation-range:entry  1%; 
 }
 
 @keyframes div-animation{
