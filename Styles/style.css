@@ -174,7 +174,7 @@ button{
 
 #about>img{
     animation-name: about-animation;
-    animation-duration:.5s;
+    animation-duration:1s;
     animation-timing-function:ease-in-out;
 }
 @keyframes about-animation{
@@ -187,13 +187,33 @@ button{
 }
 #projects > div{
     animation-name:div-animation;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-timing-function:ease-in-out;
     animation-timeline:view();
-    animation-range:entry  1%; 
+    animation-range:entry  1% entry; 
 }
 
 @keyframes div-animation{
+    from{
+        translate: 0 150vw ;
+        scale: 0.5;
+    }
+    to{
+        translate:0 0;
+        scale: 1;
+    }
+}
+
+
+#skills > div{
+    animation-name:skill-animation;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-timeline:view();
+    animation-range:entry;
+}
+
+@keyframes skill-animation{
     from{
         translate: 0 150vw ;
         scale: 0.5;
