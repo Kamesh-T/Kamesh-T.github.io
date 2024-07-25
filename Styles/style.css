@@ -195,11 +195,9 @@ button{
 
 @keyframes div-animation{
     from{
-        translate: 0 150vw ;
         scale: 0.5;
     }
     to{
-        translate:0 0;
         scale: 1;
     }
 }
