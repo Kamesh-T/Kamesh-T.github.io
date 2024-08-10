@@ -27,7 +27,7 @@ function(){
             }
         }
 
-    let dev="Aspiring Web Developer < / >";
+    let dev="Aspiring Software Developer < / >";
     let j=0;
     function typingdev(){
         if(j<dev.length){
