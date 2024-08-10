@@ -170,6 +170,9 @@ button{
     #about{
         padding:2% 5% 2% 5%;
     }
+    #about>div{
+        text-align:center;
+    }
 }
 
 
