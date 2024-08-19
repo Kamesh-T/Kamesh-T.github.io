@@ -10,7 +10,7 @@
 
 #about p{
     font-family:sans-serif;
-    font-size:x-large;
+    font-size:large;
 }
 p{
     font-family: sans-serif;
@@ -61,7 +61,7 @@ nav{
 nav > a{
     text-decoration: none;
     padding:1%;
-    font-size:x-large;
+    font-size:large;
     color: white;
 }
 nav > a:hover{
