@@ -110,6 +110,9 @@ img{
 .container-1 > div>p{
     text-align:justify;
 }
+#certn{
+    padding-left:2rem;
+}
 #git,#g-mail{
     width: 20px;
     height: 20px;
