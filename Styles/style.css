@@ -9,11 +9,7 @@
     font-size:medium;
 }
 
-#about p{
-    font-family:sans-serif;
-}
 p{
-    font-family: sans-serif;
     padding:0.5rem;
     line-height: 1.6;
 }
@@ -111,7 +107,9 @@ img{
     background-color:white;
     box-shadow:2px 2px 2px 2px black;
 }
-
+.container-1 > div>p{
+    text-align:justify;
+}
 #git,#g-mail{
     width: 20px;
     height: 20px;
